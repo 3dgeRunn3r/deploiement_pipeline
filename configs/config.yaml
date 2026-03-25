@@ -1,0 +1,14 @@
+api:
+  url: "https://jsonplaceholder.typicode.com/posts"
+  timeout: 10
+
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/posts_clean.csv"
+
+postgres:
+  host: "localhost"
+  port: 5432
+  dbname: "warehouse"
+  user: "user"
+  password: "password"
